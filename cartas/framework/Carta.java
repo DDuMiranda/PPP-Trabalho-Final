@@ -19,10 +19,7 @@ public class Carta {
     public boolean isEncoberta() { return encoberta; }
     public void setEncoberta(boolean encoberta) { this.encoberta = encoberta; }
 
-    /**
-     * Retorna a força da carta para fins de comparação.
-     * Subclasses sobrescrevem este método para definir a hierarquia do jogo.
-     */
+
     public int getForca() { return 0; }
 
     @Override

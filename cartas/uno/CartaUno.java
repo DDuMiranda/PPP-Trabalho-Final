@@ -4,7 +4,7 @@ import cartas.framework.Carta;
 
 /**
  * Carta do Uno. Estende Carta do framework adicionando tipo e cor.
- * O "naipe" do framework é reutilizado como "cor" no Uno.
+ * O naipe do framework é reutilizado como "cor" no Uno.
  */
 public class CartaUno extends Carta {
 

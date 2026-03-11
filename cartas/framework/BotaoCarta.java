@@ -26,10 +26,6 @@ public abstract class BotaoCarta extends JButton {
         carregarImagem();
     }
 
-    /**
-     * Subclasse retorna o caminho relativo ao classpath para a imagem desta carta.
-     * Exemplo: "/resources/a_copas.png" ou "/resources/uno/Red_5.png"
-     */
     protected abstract String caminhoImagem();
 
     private void carregarImagem() {

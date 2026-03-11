@@ -38,7 +38,6 @@ public abstract class JogoCartas {
                 j.receberCarta(baralho.distribuir());
     }
 
-    /** Hook: configurações após distribuição (ex: virar carta inicial no Uno). */
     protected void configurarInicio() {}
 
     public void adicionarObservador(ObservadorJogo obs) { observadores.add(obs); }

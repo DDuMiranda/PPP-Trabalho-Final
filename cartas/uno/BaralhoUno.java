@@ -4,9 +4,6 @@ import cartas.framework.Baralho;
 
 /**
  * Baralho oficial do Uno com 108 cartas:
- *  - 4 cores × (1 zero + 2×[1..9] + 2×+2 + 2×Bloqueio + 2×Inverter) = 100 cartas coloridas
- *  - 4 Curingas + 4 +4 = 8 cartas pretas
- * Total = 108 cartas
  */
 public class BaralhoUno extends Baralho {
 

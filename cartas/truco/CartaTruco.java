@@ -4,11 +4,6 @@ import cartas.framework.Carta;
 
 /**
  * Carta do Truco Paulista com hierarquia de força completa.
- *
- * Manilhas fixas (do mais forte para o mais fraco):
- *   4♣ (Zape) > 7♥ > A♠ (Espadilha) > 7♦
- *
- * Hierarquia geral: 3 > 2 > A > K > J > Q > 7 > 6 > 5 > 4
  */
 public class CartaTruco extends Carta {
 
